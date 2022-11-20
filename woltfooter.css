@@ -5,6 +5,9 @@ body{
 }
 .footer{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(34, 33, 33);
     padding: 70px 0px 70px 70px;
 }
@@ -129,8 +132,7 @@ body{
     font-size: 20px;
 }
 .footer .footer__Partend{
-    display: flex;
-    position: absolute;
+    display: flex;    
     margin-left: 4rem;
     margin-top: 90px;
 }
@@ -156,6 +158,14 @@ body{
 }
 .icon__herf3:hover{
     text-decoration: underline;
+}
+.footer__Particon{
+    display: flex;
+    
+}
+.footer__Partend{
+    display: flex;
+    
 }
 .footer__Partend1{
     display: flex;
@@ -188,5 +198,9 @@ body{
     display: flex;
     color: white;
     margin-left: 70px;
+}
+
+.footer__elements{
+    display: flex;
 }
 }
